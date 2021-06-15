@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/E-commers-shope-reactjs/static/css/main.4f2bfa53.chunk.css",
+    "main.js": "/E-commers-shope-reactjs/static/js/main.66e9fc28.chunk.js",
+    "main.js.map": "/E-commers-shope-reactjs/static/js/main.66e9fc28.chunk.js.map",
+    "runtime-main.js": "/E-commers-shope-reactjs/static/js/runtime-main.e0b4528f.js",
+    "runtime-main.js.map": "/E-commers-shope-reactjs/static/js/runtime-main.e0b4528f.js.map",
+    "static/js/2.0702bea5.chunk.js": "/E-commers-shope-reactjs/static/js/2.0702bea5.chunk.js",
+    "static/js/2.0702bea5.chunk.js.map": "/E-commers-shope-reactjs/static/js/2.0702bea5.chunk.js.map",
+    "index.html": "/E-commers-shope-reactjs/index.html",
+    "static/css/main.4f2bfa53.chunk.css.map": "/E-commers-shope-reactjs/static/css/main.4f2bfa53.chunk.css.map",
+    "static/js/2.0702bea5.chunk.js.LICENSE.txt": "/E-commers-shope-reactjs/static/js/2.0702bea5.chunk.js.LICENSE.txt",
+    "static/media/TestImg.760c24f3.png": "/E-commers-shope-reactjs/static/media/TestImg.760c24f3.png",
+    "static/media/top1.0a71b988.png": "/E-commers-shope-reactjs/static/media/top1.0a71b988.png",
+    "static/media/top2.e8f4f2a1.png": "/E-commers-shope-reactjs/static/media/top2.e8f4f2a1.png",
+    "static/media/top3.288ab932.png": "/E-commers-shope-reactjs/static/media/top3.288ab932.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0b4528f.js",
+    "static/js/2.0702bea5.chunk.js",
+    "static/css/main.4f2bfa53.chunk.css",
+    "static/js/main.66e9fc28.chunk.js"
+  ]
+}
