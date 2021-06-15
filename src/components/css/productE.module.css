@@ -114,9 +114,7 @@
     font-weight: 500;
 }
 
-.data {
-    background-color: aqua;
-}
+.data {}
 
 @media screen and (max-width: 600px) {
      :root {

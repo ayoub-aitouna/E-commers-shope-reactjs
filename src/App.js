@@ -7,15 +7,15 @@ import { Dashboard, ShopCart } from "./Pages";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/E-commers-shope-reactjs">
         <NavBar />
         <div className="switch-container">
-          <Switch>
-            <Route exact path="/" component={Dashboard} />
-            <Route path="/ShopCart" component={ShopCart} />
-          </Switch>
-        </div>
-      </Router>
+          <Switch basename="E-commers-shope-reactjs">
+            <Route exact path="/" component={Dashboard} />{" "}
+            <Route path="/ShopCart" component={ShopCart} />{" "}
+          </Switch>{" "}
+        </div>{" "}
+      </Router>{" "}
     </div>
   );
 }
