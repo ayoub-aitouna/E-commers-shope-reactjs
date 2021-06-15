@@ -1,0 +1,85 @@
+:root {
+    --size: 23vw;
+}
+
+.parent {
+    position: fixed;
+    right: 50%;
+    top: -100%;
+    width: var(--size);
+    height: 85vh;
+    transform: translate(50%, -50%);
+    z-index: 1;
+    background-color: rgb(253, 253, 253);
+    box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.5);
+    transition: 500ms ease;
+    opacity: 0;
+}
+
+.parent.active {
+    top: 53vh;
+    opacity: 1;
+}
+
+:is(.login, .singup) form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login,
+.singup {
+    height: 70%;
+}
+
+.title {
+    display: grid;
+    height: 10%;
+    place-content: center;
+    font: 700 1.5em sans-serif;
+}
+
+.login form>*,
+.singup form>* {
+    width: 80%;
+}
+
+.login form>* input:not([type="submit"]),
+.singup form>* input:not([type="submit"]) {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 5% 2%;
+}
+
+.valide {
+    display: grid;
+    place-items: center;
+}
+
+.valide input {
+    width: 60%;
+    height: 5vh;
+    border: none;
+    background-color: #7c7c7c;
+    color: #fff;
+    cursor: pointer;
+}
+
+.change>* {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+    align-items: center;
+    font: 300 0.8em sans-serif;
+}
+
+.change>* h5 {
+    font: 600 1em sans-serif;
+    cursor: pointer;
+}

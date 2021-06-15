@@ -1,0 +1,138 @@
+.parent {
+    width: 15vw;
+    padding: 3%;
+    box-shadow: 1px 2px 4px hsl(0, 0%, 0%, 0.5);
+}
+
+.img {
+    width: 200px;
+    height: 45vh;
+    position: relative;
+    background-color: #e0e0e0;
+}
+
+.price {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2vw;
+    align-items: center;
+    height: 3vh;
+    padding: 0 5%;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: 300ms ease;
+}
+
+.img:hover img {
+    filter: blur(0.11rem);
+}
+
+.img:hover .hover_details {
+    opacity: 1;
+}
+
+.hover_details {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 65% auto;
+    grid-template-rows: 17% auto 25%;
+    grid-template-areas: "s n" " nu nu" "c f";
+    transition: 500ms ease;
+    opacity: 0;
+}
+
+.hover_details>* {
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.hover_details>*>* {
+    border-radius: 5px;
+    color: lightslategray;
+}
+
+.state {
+    grid-area: s;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.add_cart {
+    grid-area: c;
+}
+
+.fav {
+    grid-area: f;
+}
+
+:root {
+    --hight-size: 3vw;
+}
+
+.fav .icon {
+    width: var(--hight-size);
+    height: var(--hight-size);
+    background-color: #fff;
+    color: hsl(34, 58%, 60%);
+    display: grid;
+    place-content: center;
+    font-size: 1.8rem;
+}
+
+.add_cart .cart {
+    width: 90%;
+    height: var(--hight-size);
+    background-color: #fff;
+    display: grid;
+    place-content: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.add_cart .cart:hover {
+    box-shadow: 0px 3px 0px lightgreen;
+}
+
+.state .s {
+    width: 60%;
+    height: calc(var(--hight-size) - 0.3vw);
+    background-color: rgb(233, 52, 52);
+    display: grid;
+    color: #fff;
+    place-content: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.data {
+    background-color: aqua;
+}
+
+@media screen and (max-width: 600px) {
+     :root {
+        --hight-size: 3rem;
+    }
+    .img {
+        width: 70vw;
+    }
+    .price {
+        justify-content: center;
+        gap: 2vw;
+        align-items: center;
+        height: 3vh;
+        padding: 0 5%;
+    }
+    .hover_details {
+        opacity: 1;
+    }
+}

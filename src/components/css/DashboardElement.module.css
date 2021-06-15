@@ -1,0 +1,61 @@
+.parent {
+    display: grid;
+    grid-template-columns: 70% auto;
+    grid-template-rows: 15% auto 20%;
+    grid-template-areas: "h h" "t  i " "b i";
+    padding: 0% 5%;
+}
+
+.Headline {
+    grid-area: h;
+}
+
+.text {
+    grid-area: t;
+}
+
+.text p {
+    width: 90%;
+}
+
+.img {
+    grid-area: i;
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.L_btn input {
+    height: 6vh;
+    width: 35%;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.L_btn {
+    grid-area: b;
+}
+
+@media screen and (max-width: 600px) {
+    .parent {
+        display: grid;
+        width: 100vw;
+        height: 25vh;
+        grid-template-columns: auto 5% 60%;
+        grid-template-rows: 15% 50% 20%;
+        grid-template-areas: "i n h" "i n t " "i n b";
+        background-color: unset;
+        padding: 0%;
+    }
+    .L_btn input {
+        height: 100%;
+        width: 50%;
+        background-color: #a3a1a1;
+        color: #fff;
+        border-radius: 10px;
+    }
+}
