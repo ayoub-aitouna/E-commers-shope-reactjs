@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/E-commers-shope-reactjs/static/css/main.4f2bfa53.chunk.css",
+    "main.css": "/E-commers-shope-reactjs/static/css/main.8564b3e3.chunk.css",
     "main.js": "/E-commers-shope-reactjs/static/js/main.5af08cd6.chunk.js",
     "main.js.map": "/E-commers-shope-reactjs/static/js/main.5af08cd6.chunk.js.map",
     "runtime-main.js": "/E-commers-shope-reactjs/static/js/runtime-main.e0b4528f.js",
@@ -8,7 +8,7 @@
     "static/js/2.0702bea5.chunk.js": "/E-commers-shope-reactjs/static/js/2.0702bea5.chunk.js",
     "static/js/2.0702bea5.chunk.js.map": "/E-commers-shope-reactjs/static/js/2.0702bea5.chunk.js.map",
     "index.html": "/E-commers-shope-reactjs/index.html",
-    "static/css/main.4f2bfa53.chunk.css.map": "/E-commers-shope-reactjs/static/css/main.4f2bfa53.chunk.css.map",
+    "static/css/main.8564b3e3.chunk.css.map": "/E-commers-shope-reactjs/static/css/main.8564b3e3.chunk.css.map",
     "static/js/2.0702bea5.chunk.js.LICENSE.txt": "/E-commers-shope-reactjs/static/js/2.0702bea5.chunk.js.LICENSE.txt",
     "static/media/TestImg.760c24f3.png": "/E-commers-shope-reactjs/static/media/TestImg.760c24f3.png",
     "static/media/top1.0a71b988.png": "/E-commers-shope-reactjs/static/media/top1.0a71b988.png",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.e0b4528f.js",
     "static/js/2.0702bea5.chunk.js",
-    "static/css/main.4f2bfa53.chunk.css",
+    "static/css/main.8564b3e3.chunk.css",
     "static/js/main.5af08cd6.chunk.js"
   ]
 }
